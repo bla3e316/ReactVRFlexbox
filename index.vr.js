@@ -27,7 +27,7 @@ export default class VRFLEXBOX extends React.Component {
                 newState = "California";
                 break;
             case 4:
-                newState = "Hawaii";
+                newState = "Paris";
                 break;
             case 5:
                 newState = "Texas";
@@ -51,7 +51,7 @@ export default class VRFLEXBOX extends React.Component {
                 randState = "California";
                 break;
             case 4:
-                randState = "Hawaii";
+                randState = "Paris";
                 break;
             case 5:
                 randState = "Texas";
@@ -65,7 +65,7 @@ export default class VRFLEXBOX extends React.Component {
           Arizona: "Arizona",
           NewHampshire: "New Hampshire",
           California: "California",
-          Hawaii: "Hawaii",
+          Paris: "Paris",
           Texas: "Texas"
       };
 
@@ -134,7 +134,7 @@ class TextBoxes extends React.Component {
                 </VrButton>
                 <VrButton onClick={() => this.props.stateClicked(4)}>
                     <View style={{ margin: 0.1, height: 0.3, backgroundColor: 'rgba(0,0,0,0.5)'}}>
-                        <Text style={{fontSize: 0.2,textAlign: 'center'}}>{this.props.states.Hawaii}</Text>
+                        <Text style={{fontSize: 0.2,textAlign: 'center'}}>{this.props.states.Paris}</Text>
                     </View>
                 </VrButton>
                 <VrButton onClick={() => this.props.stateClicked(5)}>
